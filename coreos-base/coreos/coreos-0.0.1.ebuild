@@ -76,7 +76,7 @@ RDEPEND="${RDEPEND}
 	app-editors/vim
 	"
 
-# TODO(ifup): 
+# TODO(ifup):
 #	coreos-base/crash-reporter
 
 RDEPEND="${RDEPEND}
@@ -142,4 +142,6 @@ RDEPEND="${RDEPEND}
 	net-fs/nfs-utils
 	net-misc/iputils
 	dev-vcs/git
+        app-misc/cloud-config
+        app-misc/opendaylight-dist
 	"
