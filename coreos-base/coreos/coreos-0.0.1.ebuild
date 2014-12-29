@@ -144,4 +144,5 @@ RDEPEND="${RDEPEND}
 	dev-vcs/git
         app-misc/cloud-config
         app-misc/opendaylight-dist
+        app-misc/NOS-update-client
 	"
