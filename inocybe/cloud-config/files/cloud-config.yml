@@ -1,0 +1,9 @@
+#cloud-config
+
+coreos:
+    units:
+      - name: NOS-update-client.service
+        enable: true
+        runtime: true
+        command: start
+hostname: inocybe-spore
