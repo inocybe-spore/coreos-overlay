@@ -26,7 +26,7 @@ LIBCHROME_VERS="180609"
 
 RDEPEND="!coreos-base/coreos-installer
 	app-arch/bzip2
-	coreos-base/coreos-au-key
+        inocybe/inocybe-au-key
 	coreos-base/libchrome:${LIBCHROME_VERS}[cros-debug=]
 	coreos-base/libchromeos
 	dev-cpp/gflags
