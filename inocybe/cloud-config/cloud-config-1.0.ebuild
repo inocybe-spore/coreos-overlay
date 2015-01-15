@@ -27,8 +27,7 @@ src_unpack() {
 src_install() {
 	insinto /usr/share/oem/
 	doins "${FILESDIR}"/cloud-config.yml
+
 	insinto /usr/share/coreos/
         doins "${FILESDIR}"/update.conf
-        insinto /usr/share/update_engine/
-        doins "${FILESDIR}"/update-payload-key.pub.pem
 }
